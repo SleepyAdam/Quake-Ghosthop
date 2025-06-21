@@ -870,7 +870,7 @@ void() PlayerPreThink =
 		return; // the think tics
 	}
 
-	if (countdown > time)
+	/*if (countdown > time)
 		self.locked = TRUE;
 	else
 		self.locked = FALSE;
@@ -883,7 +883,7 @@ void() PlayerPreThink =
 		//self.angles = self.v_angle;
 
 		return; // Skip movement logic
-	}
+	}*/
 
 	if (self.lives)
 	{

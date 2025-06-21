@@ -207,7 +207,7 @@ void() worldspawn =
 	else
 		cvar_set("sv_gravity", "800");
 
-	countdown = time + 3;
+	//countdown = time + 3;
 
 // the area based ambient sounds MUST be the first precache_sounds
 
